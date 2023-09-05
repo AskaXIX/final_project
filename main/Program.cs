@@ -1,4 +1,4 @@
-﻿﻿Console.WriteLine("Введите строки через пробел:");
+﻿Console.WriteLine("Введите строки через пробел:");
 string[] inputArray = Console.ReadLine().Split();
 
 string[] outputArray = new string[inputArray.Length];
@@ -12,3 +12,6 @@ foreach (string str in inputArray)
         count++;
     }
 }
+string[] finalOutputArray = new string[count];
+
+Array.Copy(outputArray, finalOutputArray, count);
