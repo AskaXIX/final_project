@@ -5,17 +5,17 @@ mixedArray[1] = 2;
 mixedArray[2] = "world";
 mixedArray[3] = ":-)";
 
-// int[] arr = {1,2,3};
+int[] arr = {1,2,3};
 
-// int[] numbers = { 123, 22, 3222, 411, 51 };
-// for (int i = 0; i < numbers.Length; i++)
-// {
-//     if (numbers[i] == arr.Length)
-//         System.Console.WriteLine(numbers[i]);
-//     System.Console.WriteLine();
-// }
-// var mix = string.Join(" ", mixedArray);
-// Console.WriteLine(mix);
+int[] numbers = { 123, 22, 3222, 411, 51 };
+for (int i = 0; i < numbers.Length; i++)
+{
+    if (numbers[i] == arr.Length)
+        System.Console.WriteLine(numbers[i]);
+    System.Console.WriteLine();
+}
+var mix = string.Join(" ", mixedArray);
+Console.WriteLine(mix);
 
 
 // int[] arr = { 1, 2, 4, 6, 7, 8, 8 };
